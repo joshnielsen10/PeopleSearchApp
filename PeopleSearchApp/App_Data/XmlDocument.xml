@@ -518,5 +518,60 @@
             <param name="id"></param>
             <returns></returns>
         </member>
+        <member name="T:PeopleSearchApp.Models.Person">
+            <summary>
+            Person model
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.PersonID">
+            <summary>
+            Person Model
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.FirstName">
+            <summary>
+            First Name of Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.LastName">
+            <summary>
+            Last Name of Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.StreetAddress">
+            <summary>
+            Current Residential Street Address for Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.City">
+            <summary>
+            City of Current Residential for Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.State">
+            <summary>
+            State of Current Residential for Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.Zip">
+            <summary>
+            Zip Code of Current Residential for Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.Age">
+            <summary>
+            Age of Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.Interests">
+            <summary>
+            Personal Interests for Person
+            </summary>
+        </member>
+        <member name="P:PeopleSearchApp.Models.Person.PhotoPath">
+            <summary>
+            Photo of Person
+            </summary>
+        </member>
     </members>
 </doc>

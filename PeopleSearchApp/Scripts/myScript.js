@@ -27,7 +27,7 @@ function clearList() {
 function fillTable(response) {
     if (response != null) {
         if ($('#personTableList').find("thead").length === 0) {
-            var table = '<thead>' +
+            var table = '<thead class="thead-dark">' +
                             '<tr>' +
                                 '<th>First Name</th>' +
                                 '<th>Last Name</th>' +
@@ -35,7 +35,7 @@ function fillTable(response) {
                                 '<th>Age</th>' +
                                 '<th>Interests</th>' +
                                 '<th>Picture</th>' +
-                                '<th>API View</th>'
+                                '<th>API View</th>' +
                             '</tr>' +
                         '/thead><tbody>';
             $('#personTableList').append(table);
@@ -48,7 +48,7 @@ function fillTable(response) {
                             '<td>' + response[i].Age + '</td>' +
                             '<td>' + response[i].Interests + '</td>' +
                             '<td><img src="\\' + response[i].PhotoPath + '" width="50"/></td>' +
-                            '<td><a href="/api/People/' + response[i].PersonID + '"> API </a></td>'
+                            '<td><a href="/api/People/' + response[i].PersonID + '"> API </a></td>' +
                        '</tr>';
             $("#personTableList").append(item);
         }
