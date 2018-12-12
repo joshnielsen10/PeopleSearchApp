@@ -9,4 +9,4 @@ When you clone/download this repository to your local machine, all you will need
 
 ## Requirements
 * Visual Studio (Developed using Visual Studio 2017 Community)
-* Entity Framework with local MSSQL
+* Entity Framework with local MSSQL (Developed using MSSQL Express with database called MSSQLLocalDB per web.config)
