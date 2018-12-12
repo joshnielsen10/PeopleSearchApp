@@ -1,0 +1,40 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#searchedName {
+    text-align: center;
+    border-radius: 5px;
+}
+
+#searchBtn {
+    margin-left: 24px;
+}
+
+#searchSection {
+    width: 80%;
+}
+
+#myButton {
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+    #myButton:hover {
+        color: white;
+        border: 1px solid red;
+        background-color: gray;
+        border-radius: 5px;
+    }
+
+#personTableList th {
+    text-align: left;
+}
